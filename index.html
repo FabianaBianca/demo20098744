@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Ice Cream</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #fff8f0;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #ff9ec4, #ffd166);
+            color: white;
+            text-align: centre;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background-color: #ff7eb6;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            max-width: 600px;
+            margin: auto;
+            font-size: 1.1rem;
+        }
+
+        .flavours {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .flavours h2 {
+            margin-bottom: 30px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: centre;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-bottom: 10px;
+        }
+
+        .price {
+            color: #ff4f81;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        button {
+            background-color: #ff4f81;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #e63e70;
+        }
+
+        footer {
+            background-color: #ff7eb6;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🍦 Sweet Ice Cream</h1>
+        <p>The finest ice cream in town!</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Flavours</a>
+        <a href="#">Menu</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Handcrafted Ice Cream Made with Love ❤️</h2>
+        <p>
+            Discover delicious flavours prepared daily using fresh, high-quality ingredients.
+        </p>
+        <button>View Menu</button>
+    </section>
+
+    <section class="flavours">
+        <h2>Our Most Popular Flavours</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>🍓 Strawberry</h3>
+                <p>Rich and creamy, made with fresh strawberries.</p>
+                <div class="price">£3.50</div>
+            </div>
+
+            <div class="card">
+                <h3>🍫 Chocolate</h3>
+                <p>Deep, indulgent chocolate for true enthusiasts.</p>
+                <div class="price">£4.00</div>
+            </div>
+
+            <div class="card">
+                <h3>🥭 Mango</h3>
+                <p>Refreshing and tropical, perfect for summer.</p>
+                <div class="price">£3.75</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Sweet Ice Cream. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
